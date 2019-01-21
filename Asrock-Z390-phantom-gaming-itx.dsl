@@ -59,6 +59,11 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                         "UsbConnector", 3,
                         "port", Buffer() { 9, 0, 0, 0 },
                     },
+                    "HS13", Package()
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 13, 0, 0, 0 },
+                    },
                     "SS01", Package()
                     {
                         "UsbConnector", 3,
